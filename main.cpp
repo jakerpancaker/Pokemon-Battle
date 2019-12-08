@@ -49,7 +49,7 @@ void PikachuEnemyAttack() {
         int index=rand() % list.size();
         int value= list[index];
         playerHp=playerHp-value;
-        cout << "Pikachu used  " << moves[index-1]<<endl;
+        cout << "Pikachu used  " << moves[index]<<endl;
         cout <<"Your HP is " <<playerHp <<endl;
     }
     string moves[4] ={"Tackle", "Lightning Bolt", "Thunder", "Iron Tail"};
@@ -85,7 +85,7 @@ void BulbasaurEnemyAttack() {
         int index=rand() % list.size();
         int value= list[index];
         playerHp=playerHp-value;
-        cout << "Bulbasaur used  " << moves[index-1]<<endl;
+        cout << "Bulbasaur used  " << moves[index]<<endl;
         cout <<"Your HP is " <<playerHp <<endl;
     }
     string moves[4] ={"Vine Whip", "Grass Storm", "Swipe", "Drain"};
@@ -122,7 +122,7 @@ void CharmanderEnemyAttack() {
     int index=rand() % list.size();
     int value= list[index];
     playerHp=playerHp-value;
-    cout << "Charmander used  " << moves[index-1]<<endl;
+    cout << "Charmander used  " << moves[index]<<endl;
     cout <<"Your HP is " <<playerHp <<endl;
 }
     string moves[4] ={"Ember", "Bite", " Fire Tail", "Head Butt"};
@@ -159,7 +159,7 @@ void SquirtleEnemyAttack() {
     int index=rand() % list.size();
     int value= list[index];
     playerHp=playerHp-value;
-    cout << "Squirtle used  " << moves[index-1]<<endl;
+    cout << "Squirtle used  " << moves[index]<<endl;
     cout <<"Your HP is " <<playerHp <<endl;
 }
     string moves[4] ={"Roll Out", "Water Gun", "Wave", "Hydro Pump"};
